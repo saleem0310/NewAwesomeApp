@@ -12,6 +12,7 @@ const SignUp = ({navigation}) => {
   const [checked, setChecked] = useState(false);
   const onSignIn = () => {
     navigation.navigate('SignIn');
+    console.log('hello');
   };
   return (
     <View style={styles.container}>
